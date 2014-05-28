@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45EB1681-3F18-4E9C-BBE7-6259386D97D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RockUnit</RootNamespace>
+    <AssemblyName>RockUnit</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Unit\Dilution\MicroMolePerLitre.cs" />
+    <Compile Include="Unit\Dilution\NanoMolePerLitre.cs" />
+    <Compile Include="Unit\Dilution\MilliMolePerLitre.cs" />
+    <Compile Include="Unit\TimeBased\MilliLetreSecond.cs" />
+    <Compile Include="Unit\TimeBased\MilliLetreMinute.cs" />
+    <Compile Include="Unit\TimeBased\MilliMole24Hour.cs" />
+    <Compile Include="Unit\Time\PlanckSecond.cs" />
+    <Compile Include="Unit\Time\PicoSecond.cs" />
+    <Compile Include="Unit\Time\NanoSecond.cs" />
+    <Compile Include="Unit\Time\MicroSecond.cs" />
+    <Compile Include="Unit\Time\MilliSecond.cs" />
+    <Compile Include="Unit\Time\Second.cs" />
+    <Compile Include="Unit\Gram\MicroGram.cs" />
+    <Compile Include="Unit\Gram\MilliGram.cs" />
+    <Compile Include="Unit\Gram\Gram.cs" />
+    <Compile Include="Unit\Metre\CentreMetre.cs" />
+    <Compile Include="Unit\Metre\KiloMetre.cs" />
+    <Compile Include="Unit\Mole\MilliMole.cs" />
+    <Compile Include="Unit\Mole\Mole.cs" />
+    <Compile Include="Unit\Metre\Metre.cs" />
+    <Compile Include="Unit\Metre\MilliMetre.cs" />
+    <Compile Include="Unit\Unit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

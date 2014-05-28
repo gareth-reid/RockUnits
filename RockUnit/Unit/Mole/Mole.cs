@@ -1,3 +1,5 @@
+using System;
+
 namespace RockUnit.Unit.Mole
 {
     public class Mole : Unit
@@ -9,7 +11,7 @@ namespace RockUnit.Unit.Mole
 
         public override string ShortUnit
         {
-            get { return "mol"; }
+            get { return String.Format("mol"); }
         }
 
         public override float GetNormalized()

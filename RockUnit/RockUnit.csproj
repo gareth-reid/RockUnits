@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,9 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exponential.cs" />
+    <Compile Include="Unit\Dilution\ExponentialPerLitre.cs" />
+    <Compile Include="Unit\Dilution\GramPerLitre.cs" />
     <Compile Include="Unit\Dilution\MicroMolePerLitre.cs" />
     <Compile Include="Unit\Dilution\NanoMolePerLitre.cs" />
     <Compile Include="Unit\Dilution\MilliMolePerLitre.cs" />
+    <Compile Include="Unit\Percentage.cs" />
     <Compile Include="Unit\TimeBased\MilliLetreSecond.cs" />
     <Compile Include="Unit\TimeBased\MilliLetreMinute.cs" />
     <Compile Include="Unit\TimeBased\MilliMole24Hour.cs" />
@@ -63,7 +68,6 @@
     <Compile Include="Unit\Unit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

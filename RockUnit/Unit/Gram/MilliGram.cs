@@ -1,3 +1,5 @@
+using System;
+
 namespace RockUnit.Unit.Gram
 {
     public class MicroGram : Unit
@@ -9,7 +11,7 @@ namespace RockUnit.Unit.Gram
 
         public override string ShortUnit
         {
-            get { return "mcg"; }
+            get { return String.Format("mcg"); }
         }
 
         /// <summary>

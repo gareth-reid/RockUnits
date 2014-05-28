@@ -55,6 +55,12 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="Unit\DilutionTests\ExponentialPerLitreTests\ExponentialPerLitreNew.cs" />
+    <Compile Include="Unit\DilutionTests\ExponentialPerLitreTests\ExponentialPerLitreNewWithValue.cs" />
+    <Compile Include="Unit\DilutionTests\ExponentialPerLitreTests\ExponentialPerLitreNewWithValueNormalized.cs" />
+    <Compile Include="Unit\DilutionTests\GramPerLitre\GramPerLitreNew.cs" />
+    <Compile Include="Unit\DilutionTests\GramPerLitre\GramPerLitreNewWithValue.cs" />
+    <Compile Include="Unit\DilutionTests\GramPerLitre\GramPerLitreNewWithValueNormalized.cs" />
     <Compile Include="Unit\DilutionTests\MicroMolePerLitreTests\MicroMolePerLitreNew.cs" />
     <Compile Include="Unit\DilutionTests\MicroMolePerLitreTests\MicroMolePerLitreNewWithValue.cs" />
     <Compile Include="Unit\DilutionTests\MicroMolePerLitreTests\MicroMolePerLitreNewWithValueNormalized.cs" />

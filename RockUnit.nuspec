@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RockUnit</id>
+    <version>0.1.0</version>
+    <authors>Gareth Reid</authors>
+    <owners>Gareth Reid</owners>
+    <licenseUrl>http://opensource.org/licenses</licenseUrl>
+    <projectUrl>https://github.com/gareth-reid/RockUnits</projectUrl>
+    <iconUrl>https://github.com/gareth-reid/RockUnitsE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library of units of measure, specifically targeting pathology but I hope it can grow to include most</description>
+    <releaseNotes>New.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>unit gareth reid</tags>
+    <dependencies>
+      
+    </dependencies>
+  </metadata>
+<files>
+	<file src="RockUnit\bin\Release\RockUnit.dll" target="lib" />
+</files>
+</package>

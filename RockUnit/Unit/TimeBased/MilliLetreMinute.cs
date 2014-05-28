@@ -1,3 +1,5 @@
+using System;
+
 namespace RockUnit.Unit.TimeBased
 {
     public class MilliLetreMinute : Unit
@@ -10,7 +12,7 @@ namespace RockUnit.Unit.TimeBased
         //e.g. Creatine clearance
         public override string ShortUnit
         {
-            get { return "mL/min"; }
+            get { return String.Format("mL/min"); }
         }
 
         /// <summary>

@@ -1,3 +1,5 @@
+using System;
+
 namespace RockUnit.Unit.TimeBased
 {
     public class MilliMole24Hour : Unit
@@ -10,7 +12,7 @@ namespace RockUnit.Unit.TimeBased
         //e.g. Urine pottasium study
         public override string ShortUnit
         {
-            get { return "mmol/24h"; }
+            get { return String.Format("mmol/24h"); }
         }
 
         /// <summary>

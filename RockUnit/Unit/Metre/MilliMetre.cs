@@ -1,3 +1,5 @@
+using System;
+
 namespace RockUnit.Unit.Metre
 {
     public class MilliMetre : Unit
@@ -8,7 +10,7 @@ namespace RockUnit.Unit.Metre
         }
         public override string ShortUnit
         {
-            get { return "mm"; }
+            get { return String.Format("mm"); }
         }
 
         /// <summary>

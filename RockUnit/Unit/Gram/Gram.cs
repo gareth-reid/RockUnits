@@ -1,3 +1,5 @@
+using System;
+
 namespace RockUnit.Unit.Gram
 {
     public class Gram : Unit
@@ -9,7 +11,7 @@ namespace RockUnit.Unit.Gram
 
         public override string ShortUnit
         {
-            get { return "g"; }
+            get { return String.Format("g"); }
         }
         
         public override float GetNormalized()

@@ -11,7 +11,7 @@ namespace RockUnit.Unit.Time
 
         public override string ShortUnit
         {
-            get { return "ns"; }
+            get { return String.Format("ns"); }
         }
 
         /// <summary>

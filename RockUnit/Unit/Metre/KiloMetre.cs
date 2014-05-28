@@ -1,3 +1,5 @@
+using System;
+
 namespace RockUnit.Unit.Metre
 {
     public class KiloMetre : Unit
@@ -9,7 +11,7 @@ namespace RockUnit.Unit.Metre
 
         public override string ShortUnit
         {
-            get { return "km"; }
+            get { return String.Format("km"); }
         }
 
         /// <summary>

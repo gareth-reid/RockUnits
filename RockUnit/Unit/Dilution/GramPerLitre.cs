@@ -1,26 +1,27 @@
 using System;
 
-namespace RockUnit.Unit.Time
+namespace RockUnit.Unit.Dilution
 {
-    public class MilliSecond : Unit
+    public class GramPerLitre : Unit
     {
-        public MilliSecond(float value = 0)
+
+        public GramPerLitre(float value = 0)
         {
             Value = value;
         }
-
+        //e.g. Creatine clearance
         public override string ShortUnit
         {
-            get { return String.Format("ms"); }
+            get { return String.Format("g/L"); }
         }
 
         /// <summary>
-        /// current value converted to seconds
+        /// current value converted to molar (mole/L)
         /// </summary>
         /// <returns></returns>
         public override float GetNormalized()
         {
-            return Value / 1000;
+            return Value;
         }
     }
 }

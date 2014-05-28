@@ -11,7 +11,7 @@ namespace RockUnit.Unit.Mole
 
         public override string ShortUnit
         {
-            get { return "mmol"; }
+            get { return String.Format("mmol"); }
         }
 
         /// <summary>

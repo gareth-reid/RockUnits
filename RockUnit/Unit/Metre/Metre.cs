@@ -1,3 +1,5 @@
+using System;
+
 namespace RockUnit.Unit.Metre
 {
     public class Metre : Unit
@@ -9,7 +11,7 @@ namespace RockUnit.Unit.Metre
 
         public override string ShortUnit
         {
-            get { return "m"; }
+            get { return String.Format("m"); }
         }
         public override float GetNormalized()
         {

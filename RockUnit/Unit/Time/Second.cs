@@ -1,3 +1,5 @@
+using System;
+
 namespace RockUnit.Unit.Time
 {
     public class Second : Unit
@@ -9,7 +11,7 @@ namespace RockUnit.Unit.Time
 
         public override string ShortUnit
         {
-            get { return "s"; }
+            get { return String.Format("s"); }
         }
 
         public override float GetNormalized()

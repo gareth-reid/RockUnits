@@ -1,3 +1,5 @@
+using System;
+
 namespace RockUnit.Unit.Metre
 {
     public class CentreMetre : Unit
@@ -8,7 +10,7 @@ namespace RockUnit.Unit.Metre
         }
         public override string ShortUnit
         {
-            get { return "cm"; }
+            get { return String.Format("cm"); }
         }
 
         /// <summary>

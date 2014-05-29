@@ -67,6 +67,9 @@
     <Compile Include="Unit\DilutionTests\MilliMolePerLitreTests\MilliMolePerLitreNew.cs" />
     <Compile Include="Unit\DilutionTests\MilliMolePerLitreTests\MilliMolePerLitreNewWithValue.cs" />
     <Compile Include="Unit\DilutionTests\MilliMolePerLitreTests\MilliMolePerLitreNewWithValueNormalized.cs" />
+    <Compile Include="Unit\DilutionTests\PicoMolePerLitreTests\PicoMolePerLitreNew.cs" />
+    <Compile Include="Unit\DilutionTests\PicoMolePerLitreTests\PicoMolePerLitreNewWithValue.cs" />
+    <Compile Include="Unit\DilutionTests\PicoMolePerLitreTests\PicoMolePerLitreNewWithValueNormalized.cs" />
     <Compile Include="Unit\DilutionTests\NanoMolePerLitreTests\NanoMolePerLitreNew.cs" />
     <Compile Include="Unit\DilutionTests\NanoMolePerLitreTests\NanoMolePerLitreNewWithValue.cs" />
     <Compile Include="Unit\DilutionTests\NanoMolePerLitreTests\NanoMolePerLitreNewWithValueNormalized.cs" />
@@ -84,6 +87,9 @@
     <Compile Include="Unit\MoleTests\MoleTests\MoleNew.cs" />
     <Compile Include="Unit\MoleTests\MoleTests\MoleNewWithValue.cs" />
     <Compile Include="Unit\MoleTests\MoleTests\MoleNewWithValueNormalized.cs" />
+    <Compile Include="Unit\ReactionTests\ExponentialKatalTests\ExponentialKatalNew.cs" />
+    <Compile Include="Unit\ReactionTests\ExponentialKatalTests\ExponentialKatalNewWithValue.cs" />
+    <Compile Include="Unit\ReactionTests\ExponentialKatalTests\ExponentialKatalNewWithValueNormalized.cs" />
     <Compile Include="Unit\TimeBasedTests\MilliLetreMinuteTests\MilliLetreMinuteNew.cs" />
     <Compile Include="Unit\TimeBasedTests\MilliLetreMinuteTests\MilliLetreMinuteNewWithValue.cs" />
     <Compile Include="Unit\TimeBasedTests\MilliLetreMinuteTests\MilliLetreMinuteNewWithValueNormalized.cs" />

@@ -15,7 +15,7 @@ namespace RockUnit.UnitTest.Unit.MetreTests.MilliMetreTests
         [Then]
         public void ShortUnitShouldEqual_mm()
         {
-            Assert.AreEqual("mm", _mm.ShortUnit);
+            Assert.AreEqual("mm", _mm.UnitDescriber);
         }
     }
 }

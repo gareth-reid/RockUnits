@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/gareth-reid/RockUnits</projectUrl>
     <iconUrl>https://github.com/gareth-reid/RockUnitsE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Library of units of measure, specifically targeting pathology but I hope it can grow to include most</description>
+    <description>Library of units of measure, specifically targeting pathology but I hope it can grow to include most. Currently: Weight, length, dilution, reaction, molecular, time, timebased</description>
     <releaseNotes>New.</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>unit gareth reid</tags>

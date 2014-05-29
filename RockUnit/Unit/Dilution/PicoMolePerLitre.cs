@@ -2,17 +2,17 @@ using System;
 
 namespace RockUnit.Unit.Dilution
 {
-    public class GramPerLitre : Unit
+    public class PicoMolePerLitre : Unit
     {
-
-        public GramPerLitre(float value = 0)
+        public PicoMolePerLitre(float value = 0)
         {
             Value = value;
         }
+
         //e.g. Creatine clearance
         public override string UnitDescriber
         {
-            get { return String.Format("g/L"); }
+            get { return String.Format("pmol/L"); }
         }
 
         /// <summary>
@@ -21,7 +21,8 @@ namespace RockUnit.Unit.Dilution
         /// <returns></returns>
         public override float GetNormalized()
         {
-            return Value;
+            return Value * (float)Math.Pow(10, -12);
         }
     }
 }
+

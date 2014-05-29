@@ -15,7 +15,7 @@ namespace RockUnit.UnitTest.Unit.DilutionTests.MicroMolePerLitreTests
         [Then]
         public void ShortUnitShouldEquEqual_MmolL()
         {
-            Assert.AreEqual("g/L", _mm.ShortUnit);
+            Assert.AreEqual("g/L", _mm.UnitDescriber);
         }
     }
 }

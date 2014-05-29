@@ -1,15 +1,13 @@
 using System;
-using System.Reflection;
 
-namespace RockUnit.Unit.Dilution
+namespace RockUnit.Unit.Reaction
 {
     /// <summary>
-    /// This is common in pathology results for things platelet counts i.e. 8.5 *10^9/L
+    /// This is common in pathology results for measuring the enzymatic activity level in enzyme catalysis
     /// </summary>
-    public class ExponentialPerLitre : Unit
+    public class ExponentialKatal : Unit
     {
-
-        public ExponentialPerLitre(float value = 0)
+        public ExponentialKatal(float value = 0)
         {
             Value = value;
         }
@@ -18,7 +16,7 @@ namespace RockUnit.Unit.Dilution
         {
             get
             {
-                return String.Format("*{0}^{1}/L", ExponentialMultiplier.Base, ExponentialMultiplier.Power);
+                return String.Format("*{0}^{1}/Kat", ExponentialMultiplier.Base, ExponentialMultiplier.Power);
             }
         }
 

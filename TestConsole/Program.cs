@@ -21,7 +21,7 @@ namespace TestConsole
 
             foreach (var u in units)
             {
-                Console.WriteLine(u.Value + u.ShortUnit + " -normalized: " + u);
+                Console.WriteLine(u.Value + u.UnitDescriber + " -normalized: " + u);
             }
 
             var cm = new CentreMetre();

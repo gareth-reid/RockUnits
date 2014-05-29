@@ -9,7 +9,7 @@ namespace RockUnit.Unit.Time
             Value = value;
         }
 
-        public override string ShortUnit
+        public override string UnitDescriber
         {
             get { return String.Format("p"); }
         }

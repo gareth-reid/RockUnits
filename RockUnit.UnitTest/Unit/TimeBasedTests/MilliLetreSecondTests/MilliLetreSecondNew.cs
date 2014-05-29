@@ -15,7 +15,7 @@ namespace RockUnit.UnitTest.Unit.TimeBasedTests.MilliLetreSecondTests
         [Then]
         public void ShortUnitShouldEquEqual_mLs()
         {
-            Assert.AreEqual("mL/s", _mm.ShortUnit);
+            Assert.AreEqual("mL/s", _mm.UnitDescriber);
         }
     }
 }

@@ -1,26 +1,26 @@
 using System;
 
-namespace RockUnit.Unit.Gram
+namespace RockUnit.Unit.Litre
 {
-    public class MilliGram : Unit
+    public class PicoLitre : Unit
     {
-        public MilliGram(float value = 0)
+        public PicoLitre(float value = 0)
         {
             Value = value;
         }
 
         public override string UnitDescriber
         {
-            get { return String.Format("mg"); }
+            get { return String.Format("pL"); }
         }
 
         /// <summary>
-        /// current value converted to Gram
+        /// current value converted to litres
         /// </summary>
         /// <returns></returns>
         public override float GetNormalized()
         {
-            return Value / 1000;
+            return Value * (float)Math.Pow(10, -12);
         }
     }
 }

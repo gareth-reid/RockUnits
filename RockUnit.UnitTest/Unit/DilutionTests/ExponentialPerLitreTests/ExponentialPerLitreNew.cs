@@ -16,7 +16,7 @@ namespace RockUnit.UnitTest.Unit.DilutionTests.ExponentialPerLitreTests
         [Then]
         public void ShortUnitShouldEquEqual_MmolL()
         {
-            Assert.AreEqual("*10^9/L", _mm.ShortUnit);
+            Assert.AreEqual("*10^9/L", _mm.UnitDescriber);
         }
     }
 }

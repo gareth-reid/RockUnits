@@ -1,21 +1,21 @@
 using System;
 
-namespace RockUnit.Unit.Gram
+namespace RockUnit.Unit.Litre
 {
-    public class MilliGram : Unit
+    public class MilliLitre : Unit
     {
-        public MilliGram(float value = 0)
+        public MilliLitre(float value = 0)
         {
             Value = value;
         }
 
         public override string UnitDescriber
         {
-            get { return String.Format("mg"); }
+            get { return String.Format("ML"); }
         }
 
         /// <summary>
-        /// current value converted to Gram
+        /// current value converted to litres
         /// </summary>
         /// <returns></returns>
         public override float GetNormalized()

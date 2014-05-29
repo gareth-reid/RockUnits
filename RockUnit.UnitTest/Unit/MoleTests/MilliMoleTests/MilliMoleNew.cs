@@ -15,7 +15,7 @@ namespace RockUnit.UnitTest.Unit.MoleTests.MilliMoleTests
         [Then]
         public void ShortUnitShouldEquEqual_mmol()
         {
-            Assert.AreEqual("mmol", _mm.ShortUnit);
+            Assert.AreEqual("mmol", _mm.UnitDescriber);
         }
     }
 }

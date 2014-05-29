@@ -10,7 +10,7 @@ namespace RockUnit.Unit.Dilution
             Value = value;
         }
         //e.g. Creatine clearance
-        public override string ShortUnit
+        public override string UnitDescriber
         {
             get { return String.Format("Mmol/L"); }
         }

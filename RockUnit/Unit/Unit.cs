@@ -10,7 +10,7 @@ namespace RockUnit.Unit
         public float Value { get; set; }
         public Exponential ExponentialMultiplier { get; set; }
         
-        public abstract string ShortUnit { get; }
+        public abstract string UnitDescriber { get; }
 
         public string GetUnitName()
         {

@@ -15,7 +15,7 @@ namespace RockUnit.UnitTest.Unit.Dilution.NanoMolePerLitreTests
         [Then]
         public void ShortUnitShouldEquEqual_nmolL()
         {
-            Assert.AreEqual("nmol/L", _mm.ShortUnit);
+            Assert.AreEqual("nmol/L", _mm.UnitDescriber);
         }
     }
 }

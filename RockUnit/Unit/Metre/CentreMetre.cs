@@ -8,7 +8,7 @@ namespace RockUnit.Unit.Metre
         {
             Value = value;
         }
-        public override string ShortUnit
+        public override string UnitDescriber
         {
             get { return String.Format("cm"); }
         }

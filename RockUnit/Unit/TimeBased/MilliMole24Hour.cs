@@ -10,7 +10,7 @@ namespace RockUnit.Unit.TimeBased
         }
 
         //e.g. Urine pottasium study
-        public override string ShortUnit
+        public override string UnitDescriber
         {
             get { return String.Format("mmol/24h"); }
         }

@@ -10,7 +10,7 @@ namespace RockUnit.Unit.TimeBased
         }
 
         //e.g. Creatine clearance
-        public override string ShortUnit
+        public override string UnitDescriber
         {
             get { return String.Format("mL/s"); }
         }

@@ -1,22 +1,24 @@
 using System;
-using System.Reflection;
 
-namespace RockUnit.Unit.Dilution
+namespace RockUnit.Unit.Reaction
 {
     /// <summary>
-    /// This is common in pathology results for things platelet counts i.e. 8.5 *10^9/L
+    /// This is common in chemistry for reaction rate
     /// </summary>
-    public class Percentage : Unit
+    public class MolePerLitrePerSecond : Unit
     {
 
-        public Percentage(float value = 0)
+        public MolePerLitrePerSecond(float value = 0)
         {
             Value = value;
         }
         
         public override string UnitDescriber
         {
-            get { return String.Format("%"); }
+            get
+            {
+                return String.Format("mol/L*s");
+            }
         }
 
         /// <summary>

@@ -15,7 +15,7 @@ namespace RockUnit.UnitTest.Unit.TimeBasedTests.MilliMole24HourTests
         [Then]
         public void ShortUnitShouldEquEqual_mmol24h()
         {
-            Assert.AreEqual("mmol/24h", _mm.ShortUnit);
+            Assert.AreEqual("mmol/24h", _mm.UnitDescriber);
         }
     }
 }

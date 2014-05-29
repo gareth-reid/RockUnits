@@ -15,7 +15,7 @@ namespace RockUnit.UnitTest.Unit.MetreTests.CentreMetreTests
         [Then]
         public void ShortUnitShouldEqual_cm()
         {
-            Assert.AreEqual("cm", _cm.ShortUnit);
+            Assert.AreEqual("cm", _cm.UnitDescriber);
         }
     }
 }

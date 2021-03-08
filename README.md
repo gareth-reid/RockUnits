@@ -3,6 +3,8 @@ RockUnits
 
 Units of measure library
 
+Nuget: https://www.nuget.org/packages/RockUnit
+
 Library of units of measure, specifically targeting pathology but I hope it can grow to include most. 
 
 Currently: 
